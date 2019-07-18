@@ -12,6 +12,7 @@ class NewPost extends Component {
     }
 
     componentDidMount(){
+        // if unauth => this.props.history.replce('/posts')
         console.log(this.props);
     }
 
